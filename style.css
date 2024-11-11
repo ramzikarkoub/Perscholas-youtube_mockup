@@ -8,7 +8,10 @@
   color: white;
 }
 .main {
+  margin-top: 10px;
   display: flex;
+  /* padding-top: 20px; */
+  height: 2000px;
 }
 .logoMenu {
   fill: currentcolor;
@@ -94,7 +97,6 @@
   margin: 0 10px;
 }
 .aside {
-  border: solid red;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
@@ -102,7 +104,7 @@
   height: 100vh;
   left: 0;
   top: 60px;
-  overflow-y: auto;
+  z-index: 1100;
 }
 .aside svg {
   width: 50px;
@@ -110,7 +112,6 @@
   margin-bottom: 10px;
 }
 .section {
-  border: solid blue;
   width: 100%;
 }
 .category {
