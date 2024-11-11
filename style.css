@@ -1,0 +1,178 @@
+/* Css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: white;
+}
+.main {
+  display: flex;
+}
+.logoMenu {
+  fill: currentcolor;
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+}
+.svgMenu {
+  margin: 0 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+.input-with-button {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  /* border: solid red; */
+}
+
+.input-with-button input {
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: solid 1px rgb(76, 75, 75);
+  border-radius: 20px;
+}
+.inputSearch {
+  position: relative;
+}
+
+.seatchBtn {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 80px;
+  height: 38px;
+  color: #fff;
+  background-color: #1d1c1c;
+  cursor: pointer;
+  padding: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid rgb(76, 75, 75);
+}
+.notifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoIcon svg,
+.notificationsIcon svg {
+  color: white;
+  width: 50px;
+  padding: 10px;
+}
+
+.micImg {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #1d1c1c;
+  border-radius: 50%;
+  margin: 0 10px;
+  color: white;
+}
+.profil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.aside {
+  border: solid red;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+.aside svg {
+  width: 50px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.section {
+  border: solid blue;
+  width: 100%;
+}
+.category {
+  width: auto;
+  padding: 7px 10px;
+  background-color: #272727;
+  border-radius: 10px;
+  border-width: 0;
+  margin: 0 8px 0 0;
+}
+.card {
+  width: 19%;
+  min-width: 300px;
+  margin-right: 1%;
+  padding-bottom: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.imgTitleCh {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding-top: 5px;
+}
+.imgTitleCh img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.articleTitle {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.channel,
+.views,
+.date {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  font-weight: 400;
+  color: rgb(170, 170, 170);
+}
+.viewsCh {
+  display: flex;
+}
+.titleCh {
+  width: 100%;
+}
+.titleDots {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.titleDots svg {
+  width: 30px;
+  height: 30px;
+}
+.featured {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+}

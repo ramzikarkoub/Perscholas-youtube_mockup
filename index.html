@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logoMenu">
+        <svg
+          class="svgMenu"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          width="24"
+          focusable="false"
+          aria-hidden="true"
+          style="pointer-events: none; display: inherit"
+          background-color="#ffff2"
+        >
+          <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="yt-ringo2-svg_yt18"
+          width="93px"
+          height="20px"
+          viewBox="0 0 93 20"
+          focusable="false"
+          aria-hidden="true"
+          style="pointer-events: none; display: inherit"
+        >
+          <g>
+            <path
+              d="M14.4848 20C14.4848 20 23.5695 20 25.8229 19.4C27.0917 19.06 28.0459 18.08 28.3808 16.87C29 14.65 29 9.98 29 9.98C29 9.98 29 5.34 28.3808 3.14C28.0459 1.9 27.0917 0.94 25.8229 0.61C23.5695 0 14.4848 0 14.4848 0C14.4848 0 5.42037 0 3.17711 0.61C1.9286 0.94 0.954148 1.9 0.59888 3.14C0 5.34 0 9.98 0 9.98C0 9.98 0 14.65 0.59888 16.87C0.954148 18.08 1.9286 19.06 3.17711 19.4C5.42037 20 14.4848 20 14.4848 20Z"
+              fill="#FF0033"
+            ></path>
+            <path d="M19 10L11.5 5.75V14.25L19 10Z" fill="white"></path>
+          </g>
+          <g id="youtube-paths_yt18">
+            <path
+              d="M37.1384 18.8999V13.4399L40.6084 2.09994H38.0184L36.6984 7.24994C36.3984 8.42994 36.1284 9.65994 35.9284 10.7999H35.7684C35.6584 9.79994 35.3384 8.48994 35.0184 7.22994L33.7384 2.09994H31.1484L34.5684 13.4399V18.8999H37.1384Z"
+            ></path>
+            <path
+              d="M44.1003 6.29994C41.0703 6.29994 40.0303 8.04994 40.0303 11.8199V13.6099C40.0303 16.9899 40.6803 19.1099 44.0403 19.1099C47.3503 19.1099 48.0603 17.0899 48.0603 13.6099V11.8199C48.0603 8.44994 47.3803 6.29994 44.1003 6.29994ZM45.3903 14.7199C45.3903 16.3599 45.1003 17.3899 44.0503 17.3899C43.0203 17.3899 42.7303 16.3499 42.7303 14.7199V10.6799C42.7303 9.27994 42.9303 8.02994 44.0503 8.02994C45.2303 8.02994 45.3903 9.34994 45.3903 10.6799V14.7199Z"
+            ></path>
+            <path
+              d="M52.2713 19.0899C53.7313 19.0899 54.6413 18.4799 55.3913 17.3799H55.5013L55.6113 18.8999H57.6012V6.53994H54.9613V16.4699C54.6812 16.9599 54.0312 17.3199 53.4212 17.3199C52.6512 17.3199 52.4113 16.7099 52.4113 15.6899V6.53994H49.7812V15.8099C49.7812 17.8199 50.3613 19.0899 52.2713 19.0899Z"
+            ></path>
+            <path
+              d="M62.8261 18.8999V4.14994H65.8661V2.09994H57.1761V4.14994H60.2161V18.8999H62.8261Z"
+            ></path>
+            <path
+              d="M67.8728 19.0899C69.3328 19.0899 70.2428 18.4799 70.9928 17.3799H71.1028L71.2128 18.8999H73.2028V6.53994H70.5628V16.4699C70.2828 16.9599 69.6328 17.3199 69.0228 17.3199C68.2528 17.3199 68.0128 16.7099 68.0128 15.6899V6.53994H65.3828V15.8099C65.3828 17.8199 65.9628 19.0899 67.8728 19.0899Z"
+            ></path>
+            <path
+              d="M80.6744 6.26994C79.3944 6.26994 78.4744 6.82994 77.8644 7.73994H77.7344C77.8144 6.53994 77.8744 5.51994 77.8744 4.70994V1.43994H75.3244L75.3144 12.1799L75.3244 18.8999H77.5444L77.7344 17.6999H77.8044C78.3944 18.5099 79.3044 19.0199 80.5144 19.0199C82.5244 19.0199 83.3844 17.2899 83.3844 13.6099V11.6999C83.3844 8.25994 82.9944 6.26994 80.6744 6.26994ZM80.7644 13.6099C80.7644 15.9099 80.4244 17.2799 79.3544 17.2799C78.8544 17.2799 78.1644 17.0399 77.8544 16.5899V9.23994C78.1244 8.53994 78.7244 8.02994 79.3944 8.02994C80.4744 8.02994 80.7644 9.33994 80.7644 11.7299V13.6099Z"
+            ></path>
+            <path
+              d="M92.6517 11.4999C92.6517 8.51994 92.3517 6.30994 88.9217 6.30994C85.6917 6.30994 84.9717 8.45994 84.9717 11.6199V13.7899C84.9717 16.8699 85.6317 19.1099 88.8417 19.1099C91.3817 19.1099 92.6917 17.8399 92.5417 15.3799L90.2917 15.2599C90.2617 16.7799 89.9117 17.3999 88.9017 17.3999C87.6317 17.3999 87.5717 16.1899 87.5717 14.3899V13.5499H92.6517V11.4999ZM88.8617 7.96994C90.0817 7.96994 90.1717 9.11994 90.1717 11.0699V12.0799H87.5717V11.0699C87.5717 9.13994 87.6517 7.96994 88.8617 7.96994Z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="input-with-button">
+        <input type="text" placeholder="Type here..." />
+        <div class="inputSearch">
+          <svg
+            class="seatchBtn"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            focusable="false"
+            aria-hidden="true"
+            style="pointer-events: none; display: inherit"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z"
+              fill-rule="evenodd"
+            ></path>
+          </svg>
+        </div>
+        <div class="mic">
+          <!-- <img
+            src="https://www.svgrepo.com/show/1902/microphone.svg"
+            alt=""
+            class="micImg"
+          /> -->
+          <svg
+            class="micImg"
+            fill="#ffffff"
+            height="200px"
+            width="200px"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            enable-background="new 0 0 512 512"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <path
+                    d="m439.5,236c0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,70-64,126.9-142.7,126.9-78.7,0-142.7-56.9-142.7-126.9 0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,86.2 71.5,157.4 163.1,166.7v57.5h-23.6c-11.3,0-20.4,9.1-20.4,20.4 0,11.3 9.1,20.4 20.4,20.4h88c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-23.6v-57.5c91.6-9.3 163.1-80.5 163.1-166.7z"
+                  ></path>
+                  <path
+                    d="m256,323.5c51,0 92.3-41.3 92.3-92.3v-127.9c0-51-41.3-92.3-92.3-92.3s-92.3,41.3-92.3,92.3v127.9c0,51 41.3,92.3 92.3,92.3zm-52.3-220.2c0-28.8 23.5-52.3 52.3-52.3s52.3,23.5 52.3,52.3v127.9c0,28.8-23.5,52.3-52.3,52.3s-52.3-23.5-52.3-52.3v-127.9z"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="notifications">
+        <div class="videoIcon">
+          <svg
+            class="videoSvg"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M9.5 9V15M6.5 12H12.5M16 10L18.5768 8.45392C19.3699 7.97803 19.7665 7.74009 20.0928 7.77051C20.3773 7.79703 20.6369 7.944 20.806 8.17433C21 8.43848 21 8.90095 21 9.8259V14.1741C21 15.099 21 15.5615 20.806 15.8257C20.6369 16.056 20.3773 16.203 20.0928 16.2295C19.7665 16.2599 19.3699 16.022 18.5768 15.5461L16 14M6.2 18H12.8C13.9201 18 14.4802 18 14.908 17.782C15.2843 17.5903 15.5903 17.2843 15.782 16.908C16 16.4802 16 15.9201 16 14.8V9.2C16 8.0799 16 7.51984 15.782 7.09202C15.5903 6.71569 15.2843 6.40973 14.908 6.21799C14.4802 6 13.9201 6 12.8 6H6.2C5.0799 6 4.51984 6 4.09202 6.21799C3.71569 6.40973 3.40973 6.71569 3.21799 7.09202C3 7.51984 3 8.07989 3 9.2V14.8C3 15.9201 3 16.4802 3.21799 16.908C3.40973 17.2843 3.71569 17.5903 4.09202 17.782C4.51984 18 5.07989 18 6.2 18Z"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="notificationsIcon">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M17.7778 16.4066C18.1725 16.2808 18.3904 15.8588 18.2646 15.4642C18.1388 15.0696 17.7168 14.8516 17.3222 14.9774L17.7778 16.4066ZM11.6797 15.9343C11.2657 15.9455 10.9391 16.2902 10.9503 16.7043C10.9615 17.1183 11.3062 17.4449 11.7203 17.4337L11.6797 15.9343ZM16.876 16.0131C17.0578 16.3853 17.5068 16.5397 17.8791 16.358C18.2513 16.1762 18.4057 15.7272 18.224 15.3549L16.876 16.0131ZM16.9104 14.374L16.2225 14.6728C16.2269 14.683 16.2316 14.6931 16.2364 14.7031L16.9104 14.374ZM15.9422 10.806L16.6868 10.7157C16.6855 10.7048 16.6839 10.694 16.6821 10.6832L15.9422 10.806ZM11.7068 5.941C11.2926 5.941 10.9568 6.27679 10.9568 6.691C10.9568 7.10521 11.2926 7.441 11.7068 7.441V5.941ZM11.7068 7.441C12.121 7.441 12.4568 7.10521 12.4568 6.691C12.4568 6.27679 12.121 5.941 11.7068 5.941V7.441ZM7.45778 10.807L6.71795 10.6839C6.71614 10.6948 6.71457 10.7057 6.71325 10.7166L7.45778 10.807ZM6.48961 14.374L7.16357 14.7031C7.16843 14.6931 7.17308 14.683 7.1775 14.6728L6.48961 14.374ZM5.17605 15.3549C4.99431 15.7272 5.14873 16.1762 5.52095 16.358C5.89317 16.5397 6.34223 16.3853 6.52397 16.0131L5.17605 15.3549ZM10.9568 6.691C10.9568 7.10521 11.2926 7.441 11.7068 7.441C12.121 7.441 12.4568 7.10521 12.4568 6.691H10.9568ZM12.4568 5C12.4568 4.58579 12.121 4.25 11.7068 4.25C11.2926 4.25 10.9568 4.58579 10.9568 5H12.4568ZM10.9568 6.691C10.9568 7.10521 11.2926 7.441 11.7068 7.441C12.121 7.441 12.4568 7.10521 12.4568 6.691H10.9568ZM12.4568 5C12.4568 4.58579 12.121 4.25 11.7068 4.25C11.2926 4.25 10.9568 4.58579 10.9568 5H12.4568ZM6.07781 14.9774C5.68317 14.8516 5.26125 15.0696 5.13544 15.4642C5.00963 15.8588 5.22756 16.2808 5.6222 16.4066L6.07781 14.9774ZM11.6797 17.4337C12.0938 17.4449 12.4385 17.1183 12.4497 16.7043C12.4609 16.2902 12.1343 15.9455 11.7203 15.9343L11.6797 17.4337ZM10.5 16.523C10.5 16.1088 10.1642 15.773 9.75001 15.773C9.33579 15.773 9.00001 16.1088 9.00001 16.523H10.5ZM14.4049 16.523C14.4049 16.1088 14.0691 15.773 13.6549 15.773C13.2407 15.773 12.9049 16.1088 12.9049 16.523H14.4049ZM17.3222 14.9774C15.4929 15.5606 13.5943 15.8825 11.6797 15.9343L11.7203 17.4337C13.7761 17.3782 15.8144 17.0325 17.7778 16.4066L17.3222 14.9774ZM18.224 15.3549L17.5844 14.0449L16.2364 14.7031L16.876 16.0131L18.224 15.3549ZM17.5983 14.0752C17.1347 13.008 16.8275 11.8759 16.6868 10.7157L15.1977 10.8963C15.3558 12.1997 15.701 13.4723 16.2225 14.6728L17.5983 14.0752ZM16.6821 10.6832C16.4696 9.40313 16.017 8.21501 15.1948 7.33897C14.3526 6.44171 13.1869 5.941 11.7068 5.941V7.441C12.8193 7.441 13.5729 7.80279 14.1011 8.36553C14.6492 8.94949 15.0181 9.81887 15.2024 10.9288L16.6821 10.6832ZM11.7068 5.941C10.2266 5.941 9.05835 6.44146 8.21321 7.33789C7.38755 8.21366 6.93123 9.40201 6.71795 10.6839L8.19761 10.9301C8.38214 9.82099 8.75359 8.95134 9.30463 8.36686C9.83619 7.80304 10.5936 7.441 11.7068 7.441V5.941ZM6.71325 10.7166C6.57244 11.8765 6.26519 13.0083 5.80171 14.0752L7.1775 14.6728C7.69888 13.4727 8.04413 12.2004 8.20232 10.8974L6.71325 10.7166ZM5.81565 14.0449L5.17605 15.3549L6.52397 16.0131L7.16357 14.7031L5.81565 14.0449ZM12.4568 6.691V5H10.9568V6.691H12.4568ZM12.4568 6.691V5H10.9568V6.691H12.4568ZM5.6222 16.4066C7.58558 17.0325 9.62394 17.3782 11.6797 17.4337L11.7203 15.9343C9.80576 15.8825 7.90713 15.5606 6.07781 14.9774L5.6222 16.4066ZM9.00001 16.523V17.023H10.5V16.523H9.00001ZM9.00001 17.023C9.00001 18.5252 10.1921 19.7755 11.7024 19.7755V18.2755C11.0561 18.2755 10.5 17.7327 10.5 17.023H9.00001ZM11.7024 19.7755C13.2127 19.7755 14.4049 18.5252 14.4049 17.023H12.9049C12.9049 17.7327 12.3487 18.2755 11.7024 18.2755V19.7755ZM14.4049 17.023V16.523H12.9049V17.023H14.4049Z"
+                fill="#ffffff"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="profil">
+          <img
+            src="https://yt3.ggpht.com/yti/ANjgQV8l26lEozwoc-pA4Hjf-LSLk5tJgWyVYZQx4I86hcnfWuI=s88-c-k-c0x00ffffff-no-rj"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <aside class="aside">
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z"
+              fill="#ffffff"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M16 10L18.5768 8.45392C19.3699 7.97803 19.7665 7.74009 20.0928 7.77051C20.3773 7.79703 20.6369 7.944 20.806 8.17433C21 8.43848 21 8.90095 21 9.8259V14.1741C21 15.099 21 15.5615 20.806 15.8257C20.6369 16.056 20.3773 16.203 20.0928 16.2295C19.7665 16.2599 19.3699 16.022 18.5768 15.5461L16 14M6.5 11V15M6.5 15H10.5M6.5 15L12.5 9M6.2 18H12.8C13.9201 18 14.4802 18 14.908 17.782C15.2843 17.5903 15.5903 17.2843 15.782 16.908C16 16.4802 16 15.9201 16 14.8V9.2C16 8.0799 16 7.51984 15.782 7.09202C15.5903 6.71569 15.2843 6.40973 14.908 6.21799C14.4802 6 13.9201 6 12.8 6H6.2C5.0799 6 4.51984 6 4.09202 6.21799C3.71569 6.40973 3.40973 6.71569 3.21799 7.09202C3 7.51984 3 8.0799 3 9.2V14.8C3 15.9201 3 16.4802 3.21799 16.908C3.40973 17.2843 3.71569 17.5903 4.09202 17.782C4.51984 18 5.07989 18 6.2 18Z"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M12 20L12 12M12 12L12 4M12 12L20 12M12 12L4 12"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          viewBox="0 0 20 20"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          fill="#000000"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <title>profile_round [#ffffff]</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="Dribbble-Light-Preview"
+                transform="translate(-140.000000, -2159.000000)"
+                fill="#ffffff"
+              >
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                  <path
+                    d="M100.562548,2016.99998 L87.4381713,2016.99998 C86.7317804,2016.99998 86.2101535,2016.30298 86.4765813,2015.66198 C87.7127655,2012.69798 90.6169306,2010.99998 93.9998492,2010.99998 C97.3837885,2010.99998 100.287954,2012.69798 101.524138,2015.66198 C101.790566,2016.30298 101.268939,2016.99998 100.562548,2016.99998 M89.9166645,2004.99998 C89.9166645,2002.79398 91.7489936,2000.99998 93.9998492,2000.99998 C96.2517256,2000.99998 98.0830339,2002.79398 98.0830339,2004.99998 C98.0830339,2007.20598 96.2517256,2008.99998 93.9998492,2008.99998 C91.7489936,2008.99998 89.9166645,2007.20598 89.9166645,2004.99998 M103.955674,2016.63598 C103.213556,2013.27698 100.892265,2010.79798 97.837022,2009.67298 C99.4560048,2008.39598 100.400241,2006.33098 100.053171,2004.06998 C99.6509769,2001.44698 97.4235996,1999.34798 94.7348224,1999.04198 C91.0232075,1998.61898 87.8750721,2001.44898 87.8750721,2004.99998 C87.8750721,2006.88998 88.7692896,2008.57398 90.1636971,2009.67298 C87.1074334,2010.79798 84.7871636,2013.27698 84.044024,2016.63598 C83.7745338,2017.85698 84.7789973,2018.99998 86.0539717,2018.99998 L101.945727,2018.99998 C103.221722,2018.99998 104.226185,2017.85698 103.955674,2016.63598"
+                    id="profile_round-[#ffffff]"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </aside>
+      <section class="section">
+        <div class="categories">
+          <button class="category">music</button>
+          <button class="category">Mixes</button>
+          <button class="category">Source code</button>
+          <button class="category">React</button>
+          <button class="category">MongoDB</button>
+          <button class="category">Node.js</button>
+          <button class="category">Express</button>
+          <button class="category">HTML</button>
+          <button class="category">SQL</button>
+          <button class="category">CSS</button>
+          <button class="category">music</button>
+          <button class="category">Source code</button>
+          <button class="category">React</button>
+          <button class="category">MongoDB</button>
+          <button class="category">Node.js</button>
+          <button class="category">Express</button>
+          <button class="category">HTML</button>
+          <button class="category">SQL</button>
+        </div>
+        <div class="featured">
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.ytimg.com/vi/agjxIltZC0Q/hq720.jpg?sqp=-oaymwFDCNAFEJQDSFryq4qpAzUIARUAAIhCGAHYAQHiAQwIHBACGAYgATgBQAHwAQH4Af4OgAK4CIoCDAgAEAEYXyAcKH8wDw==&rs=AOn4CLCkL06DAn262fBJHCR6QpVOteNAmw"
+              alt=""
+            />
+            <div class="imgTitleCh">
+              <img
+                src="https://yt3.ggpht.com/ytc/AIdro_kmxr4Gm2zB3Fj45CMBgTKlmavwj7vAQaja9g5dBws_kQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="titleCh">
+                <div class="titleDots">
+                  <h1 class="articleTitle">
+                    Full Stack Development with Java Spring Boot, React, and
+                    MongoDB
+                  </h1>
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14C6 12.8954 6.89543 12 8 12Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6Z"
+                        fill="#ffffff"
+                      ></path>
+                      <path
+                        d="M10 2C10 0.89543 9.10457 -4.82823e-08 8 0C6.89543 4.82823e-08 6 0.895431 6 2C6 3.10457 6.89543 4 8 4C9.10457 4 10 3.10457 10 2Z"
+                        fill="#ffffff"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <p class="channel">freeCodeCamp.org</p>
+                <div class="viewsCh">
+                  <p class="views">1M views</p>
+                  <p class="date">1 year ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="apps.js" async defer></script>
+  </body>
+</html>
