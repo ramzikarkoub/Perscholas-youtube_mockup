@@ -17,11 +17,25 @@
   fill: currentcolor;
   display: flex;
 
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 .svgMenu {
   margin: 0 20px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+
+  border-radius: 50%;
+}
+.svgMenu:hover {
+  margin: 0 20px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: #373434;
+  /* cursor: pointer; */
+  border-radius: 50%;
 }
 .nav {
   display: flex;
@@ -48,6 +62,7 @@
   border: solid 1px rgb(76, 75, 75);
   border-radius: 20px;
 }
+
 .inputSearch {
   position: relative;
 }
@@ -80,7 +95,15 @@
   width: 50px;
   padding: 10px;
 }
-
+.videoIcon svg:hover,
+.notificationsIcon svg:hover {
+  color: white;
+  width: 50px;
+  padding: 10px;
+  background-color: #373434;
+  cursor: pointer;
+  border-radius: 50%;
+}
 .micImg {
   width: 40px;
   height: 40px;
@@ -90,11 +113,22 @@
   margin: 0 10px;
   color: white;
 }
+.micImg:hover {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: #373434;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 10px;
+  color: white;
+}
 .profil img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin: 0 10px;
+  cursor: pointer;
 }
 .aside {
   padding: 0 10px;
@@ -111,6 +145,14 @@
   padding: 15px;
   margin-bottom: 10px;
 }
+.aside svg:hover {
+  width: 50px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #373434;
+  cursor: pointer;
+  border-radius: 5px;
+}
 .section {
   width: 100%;
 }
@@ -118,9 +160,28 @@
   width: auto;
   padding: 7px 10px;
   background-color: #272727;
+  border-radius: 7px;
+  border-width: 0;
+  margin: 0 8px 0 0;
+}
+.active {
+  width: auto;
+  padding: 7px 10px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border-width: 0;
+  margin: 0 8px 0 0;
+  color: black;
+}
+.category:hover {
+  width: auto;
+  padding: 7px 10px;
+  background-color: #272727;
   border-radius: 10px;
   border-width: 0;
   margin: 0 8px 0 0;
+  background-color: #373434;
+  cursor: pointer;
 }
 .card {
   width: 19%;
@@ -138,22 +199,26 @@
 .cardShorts img {
   width: 100%;
   border-radius: 15px;
+  cursor: pointer;
 }
 .card img {
   width: 100%;
   border-radius: 20px;
+  cursor: pointer;
 }
 .imgTitleCh {
   display: flex;
   justify-content: start;
   width: 100%;
   padding-top: 5px;
+  cursor: pointer;
 }
 .imgTitleCh img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+  cursor: pointer;
 }
 .articleTitle {
   font-family: "Roboto", "Arial", sans-serif;
